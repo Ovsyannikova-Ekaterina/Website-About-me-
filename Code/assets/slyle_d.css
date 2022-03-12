@@ -1,0 +1,37 @@
+body {
+    background: #fafafa;
+    margin: 50px 0px 50px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #1a1b18;
+}
+.container {
+    width: 100%;
+    float: left;
+}
+.blok_1 {
+    width: 180px;
+    height: 500px;
+    float: left;
+    position: sticky;
+}
+
+.blok_2 {
+    width: 380px;
+    height: 500px;
+    float: left;
+    margin-right: 15px;
+    position: sticky;
+}
+.blok_3 {
+    top: 150px;
+    width: 540px;
+    height: 280px;
+    float: left;
+    border-right: #aa7e70;
+    position: sticky;
+}
+
+
+
+
