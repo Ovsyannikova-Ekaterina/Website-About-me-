@@ -1,0 +1,164 @@
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix{
+	clear: both;
+}
+.menu1 ul{
+	color: blue; 
+	list-style-position: inside;}
+.menu1 a:link, .menu1 a:visited{
+	text-decoration: none;	
+	color: blue;
+	font: 13px Arial;
+	}
+.menu1 a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+
+.menu2 ul{
+    list-style-type: none; width: 200px
+}
+.menu2 li{
+    margin-bottom: 5px;
+}
+.menu2 a:link, .menu2 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid blue;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu2 a:hover{
+font-weight: bold
+}
+
+.menu3 ul{list-style-type: none; width: 200px}
+.menu3 li{margin-bottom: 5px;}
+.menu3 a:link, .menu3 a:visited{
+	text-decoration: none;
+	font: 13px Arial;
+    color: rgb(253, 253, 255);
+	border: 1px solid rgb(5, 5, 5);
+    background-color: rgb(0, 0, 0);
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu3 a:hover{
+font-weight: bold;
+background-color: rgb(253, 253, 253);
+color: rgb(3, 3, 3);
+}
+
+.menu4 ul{list-style-type: none; width: 200px}
+.menu4 li{margin-bottom: 5px;}
+.menu4 a:link, .menu4 a:visited{
+	text-decoration: none;
+	font: 13px Arial;
+    color: rgb(235, 235, 245);
+	border: 1px solid rgb(53, 53, 202);
+    background-color: rgb(53, 53, 202);
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu4 a:hover{
+font-weight: bold;
+background-color: rgb(253, 253, 253);
+color: rgb(3, 3, 3);
+border: 1px solid rgb(53, 53, 202);
+
+position: relative;
+}
+.menu4 a:hover::after{
+    content: url(plane.PNG);
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
+.menu5 ul{list-style-type: none;}
+.menu5 li{margin-right: 4px; float: left;}
+.menu5 a:link, .menu5 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu5 a:hover, .menu5 a.active{
+	color: red;
+	
+}
+
+.menu6 ul{list-style-type: none;}
+.menu6 li{margin-right: 4px; float: left;}
+.menu6 a:link, .menu6 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu6 a:hover, .menu6 a.active{
+	color: rgb(247, 245, 245);
+    background-color: rgb(27, 27, 27);
+	
+}
+
+
+.menu7 ul{list-style-type: none;}
+.menu7 li{margin-right: 4px; float: left;}
+.menu7 img{ width: 75px;}
+.menu7 a:link, .menu6 a:visited{
+	text-decoration: none;
+	color: gray;
+	font: 13px Arial;
+	padding: 5px;
+}
+.menu7 a:hover, .menu7 a.active{
+	color: rgb(77, 65, 243);
+	
+}
+img:hover {
+	filter: sepia(1) hue-rotate(320beg) saturate(10);
+	
+}
+
+.menu8 ul{list-style-type: none;}
+.menu8 li{margin-right: 0px; float: left;}
+.menu8 a:link, .menu8 a:visited{
+	text-decoration: none;
+	background-color: rgb(255, 191, 101);
+	font: 13px Arial;
+	padding: 10px;
+	color: aliceblue;
+}
+.menu8 a:hover, .menu8 a.active{
+	color: rgb(247, 245, 245);
+    background-color: rgb(255, 101, 101);
+	
+}
+
+.menu9 ul{list-style-type: none;}
+.menu9 li{margin-top: 5px; float: left;}
+.menu9 a:link, .menu9 a:visited{
+	text-decoration: none;
+	background-color: rgb(255, 191, 101);
+	font: 13px Arial;
+	padding: 10px;
+	color: aliceblue;
+}
+.menu9 a:hover, .menu9 a.active{
+	color: rgb(247, 245, 245);
+    background-color: rgb(255, 101, 101);
+	
+}
